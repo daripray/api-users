@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon --ext js,pug --ignore public",
+    "start": "node ./bin/www",
     "watch": "nodemon --ext js,pug --ignore public"
   },
   "dependencies": {
